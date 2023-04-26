@@ -1,16 +1,17 @@
 import { Outlet } from 'react-router-dom';
 import '../Styles/App.css';
+// import Home from '../components/Home/Home.jsx';
+import Home from "../components/Home"
+// import About from '../components/About';
+// import Portfolio from '../components/Portfolio';
+// import Services from '../components/Services';
 
 function App() {
   return (
     <div className="App">
-      
+      <Home/>
       <Outlet/>
-      {/* <header className="App-header">
-        <h1>flock-lab</h1>
-        <p>we code your ideas</p>
-        
-      </header> */}
+
     <div>
       
 

@@ -7,9 +7,9 @@ export default function Nav() {
 
             <nav className="nav_bar">
                 <ul>
-                    <li><Link to={"/aboutUs"}>About</Link></li>
-                    <li><Link to={'/Portfolio'}>Portfolio</Link></li>
-                    <li><Link to={'/Services'}>Services</Link></li>
+                    <li><Link to={"/about"}>About</Link></li>
+                    <li><Link to={'/portfolio'}>Portfolio</Link></li>
+                    <li><Link to={'/services'}>Services</Link></li>
                 </ul>
             </nav>
 

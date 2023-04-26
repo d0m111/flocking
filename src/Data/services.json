@@ -1,0 +1,29 @@
+[
+    {
+        "id" : "1",
+        "name" : "basic",
+        "description" : [
+            "static web site",
+            "maintenance for 6 month"
+        ],
+        "price" : "15,99€ monthly"
+    },
+    {
+        "id" : "2",
+        "name" : "medium",
+        "description" : [
+            "dynamic web site",
+            "maintenance for 18 month"
+        ],
+        "price" : "31,99€ monthly"
+    },
+    {
+        "id" : "2",
+        "name" : "pro",
+        "description" : [
+            "dynamic web site",
+            "maintenance for life"
+        ],
+        "price" : "61,99€ monthly"
+    }
+]

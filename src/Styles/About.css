@@ -1,0 +1,11 @@
+.about{
+    width: 500px;
+    margin: 5em auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.about p{
+    text-align: justify;
+}

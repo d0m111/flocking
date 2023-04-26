@@ -1,0 +1,20 @@
+[
+    {
+        "id:" : "01",
+        "web" : "https://franciscouberto.com",
+        "name" : "Francisco Uberto",
+        "about" : "composer"
+    },
+    {
+        "id:" : "02",
+        "web" : "https://coricode.fr",
+        "name" : "Corina Uberto Gibert",
+        "about" : "web developer"
+    },
+    {
+        "id:" : "03",
+        "web" : "https://joaquinortega.eu",
+        "name" : "joaquin ortega",
+        "about" : "guitarrist"
+    }
+]

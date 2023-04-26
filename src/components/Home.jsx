@@ -1,6 +1,6 @@
 import Header from "./Header";
 import Nav from "./Nav";
-import '../Styles/Home.css'
+import '../Styles/App.css'
 
 
 export default function Home() {
