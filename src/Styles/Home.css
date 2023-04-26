@@ -1,0 +1,59 @@
+/* contains Header, Nav */
+.home_container{
+    margin: 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+   /* align-items: center; */
+}
+/* HEADER */
+.header_container {
+    /* margin: auto; */
+    /* background-color: #282c34; */
+    /* background-image: url(https://camo.githubusercontent.com/ca15308dca8f230f07366cb99ba112accbc266e9a44996dce8a7f178386ade08/68747470733a2f2f692e696d6775722e636f6d2f4b7555753536562e676966); */
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+  }
+  
+.header_container h1{
+    margin: 0;
+    text-transform: capitalize;
+  }
+  
+.header_container p{
+    margin: 0;
+    text-transform: capitalize;
+  }
+
+/* NAV */
+/* 
+.nav_bar{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.nav_bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav_bar ul li{
+    padding: 10px;
+}
+
+.nav_bar li a{
+    text-decoration: none;
+    color: black;
+}
