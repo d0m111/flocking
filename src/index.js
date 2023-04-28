@@ -6,7 +6,7 @@ import App from './Root/App';
 import reportWebVitals from './reportWebVitals';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Services from './components/Services';
+// import Services from './components/Services';
 
 
 
@@ -24,10 +24,10 @@ const router = createBrowserRouter([
         path: "/portfolio",
         element: <Portfolio/>
       },
-      {
-        path: "/services",
-        element: <Services/>
-      }
+      // {
+      //   path: "/services",
+      //   element: <Services/>
+      // }
     ]
   }
 ])

@@ -26,6 +26,7 @@
   }
   
 .header_container h1{
+    font-family: 'Radio-Canada', sans-serif;
     margin: 0;
     text-transform: capitalize;
   }

@@ -7,10 +7,9 @@ export default function Header() {
         <Link to={'/'} className="header_link">
             <header className="header_container">
                 <h1>flock-lab</h1>
-                <p>Designing your digital presence with us</p>
+                <p>Designing your digital presence</p>
             </header>
         </Link>
-         
 
     )
 }

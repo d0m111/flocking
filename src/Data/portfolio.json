@@ -3,18 +3,39 @@
         "id:" : "01",
         "web" : "https://franciscouberto.com",
         "name" : "Francisco Uberto",
-        "about" : "composer"
+        "about" : "composer",
+        "assets" : [
+            "#design",
+            "#animation",
+            "#tailored made",
+            "#custom style",
+            "#creative typography"
+        ]
     },
     {
         "id:" : "02",
         "web" : "https://coricode.fr",
         "name" : "Corina Uberto Gibert",
-        "about" : "web developer"
+        "about" : "web developer",
+        "assets" : [
+            "#multilingual support",
+            "#user friendly design",
+            "#Mobile responsiveness",
+            "#Fast loading time",
+            "#Consistent branding"
+        ]
     },
     {
         "id:" : "03",
         "web" : "https://joaquinortega.eu",
         "name" : "joaquin ortega",
-        "about" : "guitarrist"
+        "about" : "guitarrist",
+        "assets": [
+            "#sobrety",
+            "#minimal",
+            "#portfolio",
+            "#Easy navigation",
+            "#Performance optimization"
+        ]
     }
 ]

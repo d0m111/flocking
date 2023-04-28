@@ -9,8 +9,15 @@ export default function Portfolio(){
                     <div className="card">
                         <iframe className="iFrame_properties" src={e.web} title={e.name}></iframe>
                         <div className="card_description">
-                            <p>{e.name}</p>
-                            <p>{e.about}</p>
+                            {/* <p>{e.name}</p>
+                            <p>{e.about}</p> */}
+                            <div className="assets">
+                                {e.assets.map((e)=>{
+                                    return(
+                                        <p>{e}</p>
+                                    )
+                                })}
+                            </div>
                         </div>
                     </div>
                 ))}

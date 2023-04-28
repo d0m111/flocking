@@ -2,7 +2,7 @@ import requestAnimationFrame from 'raf';
 import now from 'performance-now';
 import xs from 'xstream';
 
-export default function timeDriver () {
+export default function time () {
   const animation$ = xs.create();
 
   let previousTime = now();

@@ -1,4 +1,6 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet} from 'react-router-dom';
+// import xs from 'xstream';
+// import { useState, useEffect } from 'react';
 import '../Styles/App.css';
 // import Home from '../components/Home/Home.jsx';
 import Home from "../components/Home"
@@ -6,17 +8,18 @@ import Home from "../components/Home"
 // import Portfolio from '../components/Portfolio';
 // import Services from '../components/Services';
 
+// import elMuchacho from "../animation-background/animationFlocking"
+// import Boid from '../components/boids';
+
+
 function App() {
+
   return (
     <div className="App">
+      {/* <Boid/> */}
       <Home/>
       <Outlet/>
-
-    <div>
-      
-
-      {/* <script src={main}></script> */}
-    </div>
+      {/* <Main/> */}
     </div>
   );
 }
