@@ -8,7 +8,9 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: center;
+  
 }
+
 /* HEADER */
 
 .header_link{
@@ -26,6 +28,11 @@
   }
   
 .header_container h1{
+    /* background: url(https://cutewallpaper.org/27/bokeh-wallpaper-gif/75-wall-%C3%BD-t%C6%B0%E1%BB%9Fng-h%C3%ACnh-n%E1%BB%81n-h%C3%ACnh-%E1%BA%A3nh-nh%E1%BA%A1c-tr%E1%BB%AF-t%C3%ACnh.gif);
+    background-size: 1000%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;   */
     font-family: 'Radio-Canada', sans-serif;
     margin: 0;
     text-transform: capitalize;
@@ -62,3 +69,6 @@
     text-decoration: none;
     color: black;
 }
+
+
+
