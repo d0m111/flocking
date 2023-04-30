@@ -1,1 +1,7 @@
+# ignore node modules
 node_modules
+# ignore production
+build
+
+src/Images/
+

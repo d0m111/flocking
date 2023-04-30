@@ -41,8 +41,8 @@ onmousemove = function(e){
     // console.log("mouse location:", e.clientX, e.clientY)
     let m = new MousePos();
     let rand = Math.floor(Math.random()*100)
-    m.x = e.clientX + rand; 
-    m.y = e.clientY + rand;
+    m.x = e.clientX; 
+    m.y = e.clientY;
     console.log(m);
     let newPos = `translate(${m.x}px, ${m.y}px)`
     // console.log(newPos);

@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <FlockSystem/>
+      {/* <FlockSystem/> */}
       <div className="home_container">
           <Header/>
           <Nav/>
