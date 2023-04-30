@@ -44,6 +44,24 @@
     font-size: medium;
   }
 
+/* TITLE */
+
+.title_container{
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-between; */
+  column-gap: 10px;
+}
+
+.title_container img{
+  /* align-items: center; */
+  width: 45px;
+}
+
+
 /* NAV */
 /* 
 .nav_bar{
