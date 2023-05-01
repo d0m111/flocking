@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom"
-import FL_logo from "../img/FL_logo.png"
+import FL_logo from "../Images/FL_logo.png"
 import "../Styles/Home.css"
 import "../Styles/App.css"
 

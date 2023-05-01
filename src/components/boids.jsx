@@ -40,18 +40,18 @@ class Boid {
 onmousemove = function(e){
     // console.log("mouse location:", e.clientX, e.clientY)
     let m = new MousePos();
-    let rand = Math.floor(Math.random()*100)
     m.x = e.clientX; 
     m.y = e.clientY;
     console.log(m);
-    let newPos = `translate(${m.x}px, ${m.y}px)`
-    // console.log(newPos);
+
     // aca el boid sigue al mouse, pero creo que despues deberia ser el flock el que siga al mouse, y no cada boid
     let boids = document.getElementsByClassName("boid");
 
     for (let i = 0; i < boids.length; i++){
-        boids[i].style.transform = newPos;
+        let rand = Math.random()*250
+        boids[i].style.transform = `translate(${m.x + rand}px, ${m.y + rand}px)`;
     }
+    console.log(boids);
 }
 
 let flock = [];
@@ -61,7 +61,7 @@ function createFlock(c){
     flock.push(Boid)}
 }
 
-createFlock(30)
+createFlock(5)
 
 export default function FlockSystem(){
     
@@ -87,3 +87,14 @@ export default function FlockSystem(){
     )
 }
 
+// function draw(timestamp) {
+//     // Draw something on the screen
+//     console.log(`Drawing at timestamp ${timestamp}`);
+  
+//     // Schedule the next frame
+//     requestAnimationFrame(draw);
+//   }
+  
+//   // Schedule the first frame
+//   requestAnimationFrame(draw);
+  
